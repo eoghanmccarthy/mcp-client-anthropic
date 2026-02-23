@@ -1,0 +1,23 @@
+{
+  "name": "mcp-client-anthropic",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && chmod 755 build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.72.1",
+    "@modelcontextprotocol/sdk": "^1.25.3",
+    "dotenv": "^17.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.0",
+    "typescript": "^5.9.3"
+  }
+}
